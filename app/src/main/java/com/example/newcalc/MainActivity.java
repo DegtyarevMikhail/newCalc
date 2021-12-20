@@ -63,8 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
             data = savedInstanceState.getParcelable(KeyStorage);
         }
-        //display1.setText(data.getDisplay1());
-        //display2.setText(data.getDisplay2());
+
 
         btn0.setOnClickListener(new View.OnClickListener() {
             @Override
