@@ -4,18 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#232223"
+    android:background="@drawable/sword"
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:weightSum="7"
-    tools:ignore="ExtraText">
+    tools:ignore="ExtraText"
+    >
 
-    <TextView
+    <EditText
         android:id="@+id/display1"
         android:layout_width="397dp"
         android:layout_height="80dp"
         android:textColor="@color/white"
-        android:textSize="70sp" />
+        android:textSize="60sp" />
 
 
     <EditText
@@ -24,7 +25,7 @@
         android:layout_width="397dp"
         android:layout_height="80dp"
         android:textColor="@color/white"
-        android:textSize="70sp"
+        android:textSize="60sp"
         />
 
     <TableLayout

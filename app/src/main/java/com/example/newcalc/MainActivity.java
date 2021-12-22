@@ -31,9 +31,9 @@ public class MainActivity extends AppCompatActivity {
 
     Storage data = new Storage();
 
-    private TextView display1;
-    private EditText display2;
+    private EditText display1;
 
+    private EditText display2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,133 +63,62 @@ public class MainActivity extends AppCompatActivity {
 
             data = savedInstanceState.getParcelable(KeyStorage);
         }
+        //display1.setText(data.getDisplay1());
+        //display2.setText(data.getDisplay2());
+        display1 = (EditText) findViewById(R.id.display1);
+
+        display2 = (EditText) findViewById(R.id.display2);
 
 
-        btn0.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display1;
-                display1 = (TextView) findViewById(R.id.display1);
-                display1.setText("0");
-            }
-        });
-        btn1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display1;
-                display1 = (TextView) findViewById(R.id.display1);
-                display1.setText("1");
-            }
-        });
-        btn2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display1;
-                display1 = (TextView) findViewById(R.id.display1);
-                display1.setText("2");
-            }
-        });
-        btn3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display1;
-                display1 = (TextView) findViewById(R.id.display1);
-                display1.setText("3");
-            }
-        });
-        btn4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display1;
-                display1 = (TextView) findViewById(R.id.display1);
-                display1.setText("4");
-            }
-        });
-        btn5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display1;
-                display1 = (TextView) findViewById(R.id.display1);
-                display1.setText("5");
-            }
-        });
-        btn6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display1;
-                display1 = (TextView) findViewById(R.id.display1);
-                display1.setText("6");
-            }
-        });
-        btn7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display1;
-                display1 = (TextView) findViewById(R.id.display1);
-                display1.setText("7");
-            }
-        });
-        btn8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display1;
-                display1 = (TextView) findViewById(R.id.display1);
-                display1.setText("8");
-            }
-        });
-        btn9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display1;
-                display1 = (TextView) findViewById(R.id.display1);
-                display1.setText("9");
-            }
-        });
+        btn0.setOnClickListener(view -> display1.setText("0"));
+        btn1.setOnClickListener(view -> display1.setText("1"));
+        btn2.setOnClickListener(view -> display1.setText("2"));
+        btn3.setOnClickListener(view -> display1.setText("3"));
+        btn4.setOnClickListener(view -> display1.setText("4"));
+        btn5.setOnClickListener(view -> display1.setText("5"));
+        btn6.setOnClickListener(view -> display1.setText("6"));
+        btn7.setOnClickListener(view -> display1.setText("7"));
+        btn8.setOnClickListener(view -> display1.setText("8"));
+        btn9.setOnClickListener(view -> display1.setText("9"));
+
+        display2 = (EditText) findViewById(R.id.display2);
+
+
         btnPlus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final TextView display2;
-                display2 = (TextView) findViewById(R.id.display2);
                 display2.setText("+");
             }
         });
         btnMinus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final TextView display2;
-                display2 = (TextView) findViewById(R.id.display2);
                 display2.setText("-");
             }
         });
         btnDivision.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final TextView display2;
-                display2 = (TextView) findViewById(R.id.display2);
                 display2.setText("/");
             }
         });
         btnMultiply.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final TextView display2;
-                display2 = (TextView) findViewById(R.id.display2);
                 display2.setText("*");
             }
         });
         btnEqual.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final TextView display2;
-                display2 = (TextView) findViewById(R.id.display2);
                 display2.setText("=");
             }
         });
         btnС.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final TextView display1 = (TextView) findViewById(R.id.display1);
                 display1.setText("");
+                display2.setText("");
             }
         });
 
