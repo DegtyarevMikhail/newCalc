@@ -17,4 +17,5 @@
     <string name="button12">=</string>
     <string name="multi">*</string>
     <string name="c">C</string>
+    <string name="hello_world">Hello world</string>
 </resources>

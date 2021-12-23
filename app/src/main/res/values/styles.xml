@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CalcButtonStyle">
+        <item name="android:backgroundTint">@color/calc_button_color</item>
+        <item name="android:layout_width">@dimen/calc_button_width</item>
+        <item name="android:layout_height">@dimen/calc_button_height</item>
+        <item name="android:layout_margin">@dimen/default_margin</item>
+        <item name="android:text">@string/_1</item>
+    </style>
+</resources>
