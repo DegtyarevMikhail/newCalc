@@ -12,6 +12,13 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     private final static String KeyStorage = "KeyStorage";
+
+
+    Storage data = new Storage();
+
+    private EditText display1;
+    private EditText display2;
+
     private Button btn0;
     private Button btn1;
     private Button btn2;
@@ -29,16 +36,12 @@ public class MainActivity extends AppCompatActivity {
     private Button btnEqual;
     private Button btnС;
 
-    Storage data = new Storage();
-
-    private TextView display1;
-    private EditText display2;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         btn0 = findViewById(R.id.Button11);
         btn1 = findViewById(R.id.Button01);
@@ -66,132 +69,28 @@ public class MainActivity extends AppCompatActivity {
         //display1.setText(data.getDisplay1());
         //display2.setText(data.getDisplay2());
 
-        btn0.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display1;
-                display1 = (TextView) findViewById(R.id.display1);
-                display1.setText("0");
-            }
-        });
-        btn1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display1;
-                display1 = (TextView) findViewById(R.id.display1);
-                display1.setText("1");
-            }
-        });
-        btn2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display1;
-                display1 = (TextView) findViewById(R.id.display1);
-                display1.setText("2");
-            }
-        });
-        btn3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display1;
-                display1 = (TextView) findViewById(R.id.display1);
-                display1.setText("3");
-            }
-        });
-        btn4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display1;
-                display1 = (TextView) findViewById(R.id.display1);
-                display1.setText("4");
-            }
-        });
-        btn5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display1;
-                display1 = (TextView) findViewById(R.id.display1);
-                display1.setText("5");
-            }
-        });
-        btn6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display1;
-                display1 = (TextView) findViewById(R.id.display1);
-                display1.setText("6");
-            }
-        });
-        btn7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display1;
-                display1 = (TextView) findViewById(R.id.display1);
-                display1.setText("7");
-            }
-        });
-        btn8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display1;
-                display1 = (TextView) findViewById(R.id.display1);
-                display1.setText("8");
-            }
-        });
-        btn9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display1;
-                display1 = (TextView) findViewById(R.id.display1);
-                display1.setText("9");
-            }
-        });
-        btnPlus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display2;
-                display2 = (TextView) findViewById(R.id.display2);
-                display2.setText("+");
-            }
-        });
-        btnMinus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display2;
-                display2 = (TextView) findViewById(R.id.display2);
-                display2.setText("-");
-            }
-        });
-        btnDivision.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display2;
-                display2 = (TextView) findViewById(R.id.display2);
-                display2.setText("/");
-            }
-        });
-        btnMultiply.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display2;
-                display2 = (TextView) findViewById(R.id.display2);
-                display2.setText("*");
-            }
-        });
-        btnEqual.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display2;
-                display2 = (TextView) findViewById(R.id.display2);
-                display2.setText("=");
-            }
-        });
-        btnС.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                final TextView display1 = (TextView) findViewById(R.id.display1);
-                display1.setText("");
-            }
+        display1 = (EditText) findViewById(R.id.display1);
+
+        display2 = (EditText) findViewById(R.id.display2);
+
+        btn0.setOnClickListener(view -> display1.setText("0"));
+        btn1.setOnClickListener(view -> display1.setText("1"));
+        btn2.setOnClickListener(view -> display1.setText("2"));
+        btn3.setOnClickListener(view -> display1.setText("3"));
+        btn4.setOnClickListener(view -> display1.setText("4"));
+        btn5.setOnClickListener(view -> display1.setText("5"));
+        btn6.setOnClickListener(view -> display1.setText("6"));
+        btn7.setOnClickListener(view -> display1.setText("7"));
+        btn8.setOnClickListener(view -> display1.setText("8"));
+        btn9.setOnClickListener(view -> display1.setText("9"));
+        btnPlus.setOnClickListener(view -> display2.setText("+"));
+        btnMinus.setOnClickListener(view -> display2.setText("-"));
+        btnDivision.setOnClickListener(view -> display2.setText("/"));
+        btnMultiply.setOnClickListener(view -> display2.setText("*"));
+        btnEqual.setOnClickListener(view -> display2.setText("="));
+        btnС.setOnClickListener(view -> {
+            display1.setText("");
+            display2.setText("");
         });
 
     }
