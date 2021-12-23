@@ -11,20 +11,22 @@
     tools:ignore="ExtraText">
 
     <EditText
+        android:gravity="center"
         android:id="@+id/display1"
         android:layout_width="397dp"
         android:layout_height="64dp"
         android:textColor="@color/white"
-        android:textSize="40sp" />
+        android:textSize="@dimen/greetings_string_size" />
 
 
     <EditText
+        android:gravity="center"
         android:padding="@dimen/cardview_compat_inset_shadow"
         android:id="@+id/display2"
         android:layout_width="397dp"
         android:layout_height="64dp"
         android:textColor="@color/white"
-        android:textSize="40sp"
+        android:textSize="@dimen/greetings_string_size"
          />
 
     <TableLayout
