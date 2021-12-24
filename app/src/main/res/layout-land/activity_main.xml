@@ -41,7 +41,11 @@
             android:layout_height="wrap_content"
             android:gravity="center">
 
-            <Button
+            <com.google.android.material.button.MaterialButton
+                app:rippleColor="#B10E4F"
+                app:cornerRadius="16dp"
+                app:strokeWidth="3dp"
+                app:strokeColor="#0FA5B8"
                 android:id="@+id/Button01"
                 android:layout_width="40pt"
                 android:layout_height="30pt"
@@ -49,7 +53,11 @@
                 android:text="@string/_1"
                 android:textSize="30sp" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
+                app:rippleColor="#B10E4F"
+                app:cornerRadius="16dp"
+                app:strokeWidth="3dp"
+                app:strokeColor="#0FA5B8"
                 android:id="@+id/Button02"
                 android:layout_width="40pt"
                 android:layout_height="30pt"
@@ -57,7 +65,11 @@
                 android:text="@string/_2"
                 android:textSize="30sp" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
+                app:rippleColor="#B10E4F"
+                app:cornerRadius="16dp"
+                app:strokeWidth="3dp"
+                app:strokeColor="#0FA5B8"
                 android:id="@+id/Button03"
                 android:layout_width="40pt"
                 android:layout_height="30pt"
@@ -65,7 +77,11 @@
                 android:text="@string/_3"
                 android:textSize="30sp" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
+                app:rippleColor="#B10E4F"
+                app:cornerRadius="16dp"
+                app:strokeWidth="3dp"
+                app:strokeColor="#0FA5B8"
                 android:id="@+id/Button04"
                 android:layout_width="40pt"
                 android:layout_height="30pt"
@@ -73,7 +89,11 @@
                 android:text="@string/_4"
                 android:textSize="30sp" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
+                app:rippleColor="#B10E4F"
+                app:cornerRadius="16dp"
+                app:strokeWidth="3dp"
+                app:strokeColor="#0FA5B8"
                 android:id="@+id/Button05"
                 android:layout_width="40pt"
                 android:layout_height="30pt"
@@ -83,14 +103,22 @@
 
 
 
-            <Button
+            <com.google.android.material.button.MaterialButton
+                app:rippleColor="#B10E4F"
+                app:cornerRadius="16dp"
+                app:strokeWidth="3dp"
+                app:strokeColor="#0FA5B8"
                 android:id="@+id/ButtonPlus"
                 android:layout_width="40pt"
                 android:layout_height="30pt"
                 android:layout_margin="2dp"
                 android:text="@string/plus"
                 android:textSize="30sp" />
-            <Button
+            <com.google.android.material.button.MaterialButton
+                app:rippleColor="#B10E4F"
+                app:cornerRadius="16dp"
+                app:strokeWidth="3dp"
+                app:strokeColor="#0FA5B8"
                 android:id="@+id/ButtonMinus"
                 android:layout_width="40pt"
                 android:layout_height="30pt"
@@ -104,7 +132,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center">
-            <Button
+            <com.google.android.material.button.MaterialButton
+                app:rippleColor="#B10E4F"
+                app:cornerRadius="16dp"
+                app:strokeWidth="3dp"
+                app:strokeColor="#0FA5B8"
                 android:id="@+id/Button06"
                 android:layout_width="40pt"
                 android:layout_height="30pt"
@@ -112,7 +144,11 @@
                 android:text="@string/_6"
                 android:textSize="30sp" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
+                app:rippleColor="#B10E4F"
+                app:cornerRadius="16dp"
+                app:strokeWidth="3dp"
+                app:strokeColor="#0FA5B8"
                 android:id="@+id/Button07"
                 android:layout_width="40pt"
                 android:layout_height="30pt"
@@ -120,7 +156,11 @@
                 android:text="@string/_7"
                 android:textSize="30sp" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
+                app:rippleColor="#B10E4F"
+                app:cornerRadius="16dp"
+                app:strokeWidth="3dp"
+                app:strokeColor="#0FA5B8"
                 android:id="@+id/Button08"
                 android:layout_width="40pt"
                 android:layout_height="30pt"
@@ -128,21 +168,33 @@
                 android:text="@string/_8"
                 android:textSize="30sp" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
+                app:rippleColor="#B10E4F"
+                app:cornerRadius="16dp"
+                app:strokeWidth="3dp"
+                app:strokeColor="#0FA5B8"
                 android:id="@+id/Button09"
                 android:layout_width="40pt"
                 android:layout_height="30pt"
                 android:layout_margin="2dp"
                 android:text="@string/_9"
                 android:textSize="30sp" />
-            <Button
+            <com.google.android.material.button.MaterialButton
+                app:rippleColor="#B10E4F"
+                app:cornerRadius="16dp"
+                app:strokeWidth="3dp"
+                app:strokeColor="#0FA5B8"
                 android:id="@+id/Button11"
                 android:layout_width="40pt"
                 android:layout_height="30pt"
                 android:layout_margin="2dp"
                 android:text="@string/_0"
                 android:textSize="30sp" />
-            <Button
+            <com.google.android.material.button.MaterialButton
+                app:rippleColor="#B10E4F"
+                app:cornerRadius="16dp"
+                app:strokeWidth="3dp"
+                app:strokeColor="#0FA5B8"
                 android:id="@+id/ButtonMul"
                 android:layout_width="40pt"
                 android:layout_height="30pt"
@@ -150,7 +202,11 @@
                 android:text="@string/multi"
                 android:textSize="30sp" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
+                app:rippleColor="#B10E4F"
+                app:cornerRadius="16dp"
+                app:strokeWidth="3dp"
+                app:strokeColor="#0FA5B8"
                 android:id="@+id/ButtonDivide"
                 android:layout_width="40pt"
                 android:layout_height="30pt"
@@ -165,7 +221,11 @@
             android:layout_height="30pt"
             android:gravity="center">
 
-            <Button
+            <com.google.android.material.button.MaterialButton
+                app:rippleColor="#B10E4F"
+                app:cornerRadius="16dp"
+                app:strokeWidth="3dp"
+                app:strokeColor="#0FA5B8"
                 android:id="@+id/Button10"
                 android:layout_width="40pt"
                 android:layout_height="30pt"
@@ -175,14 +235,22 @@
 
 
 
-            <Button
+            <com.google.android.material.button.MaterialButton
+                app:rippleColor="#B10E4F"
+                app:cornerRadius="16dp"
+                app:strokeWidth="3dp"
+                app:strokeColor="#0FA5B8"
                 android:id="@+id/Button12"
                 android:layout_width="40pt"
                 android:layout_height="30pt"
                 android:layout_margin="2dp"
                 android:text="@string/button12"
                 android:textSize="30sp" />
-            <Button
+            <com.google.android.material.button.MaterialButton
+                app:rippleColor="#B10E4F"
+                app:cornerRadius="16dp"
+                app:strokeWidth="3dp"
+                app:strokeColor="#0FA5B8"
                 android:id="@+id/ButtonC"
                 android:layout_width="40pt"
                 android:layout_height="30pt"

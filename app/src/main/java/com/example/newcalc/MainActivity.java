@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.google.android.material.button.MaterialButton;
+
 public class MainActivity extends AppCompatActivity {
 
     private final static String KeyStorage = "KeyStorage";
@@ -19,22 +21,22 @@ public class MainActivity extends AppCompatActivity {
     private EditText display1;
     private EditText display2;
 
-    private Button btn0;
-    private Button btn1;
-    private Button btn2;
-    private Button btn3;
-    private Button btn4;
-    private Button btn5;
-    private Button btn6;
-    private Button btn7;
-    private Button btn8;
-    private Button btn9;
-    private Button btnPlus;
-    private Button btnMinus;
-    private Button btnDivision;
-    private Button btnMultiply;
-    private Button btnEqual;
-    private Button btnС;
+    private MaterialButton btn0;
+    private MaterialButton btn1;
+    private MaterialButton btn2;
+    private MaterialButton btn3;
+    private MaterialButton btn4;
+    private MaterialButton btn5;
+    private MaterialButton btn6;
+    private MaterialButton btn7;
+    private MaterialButton btn8;
+    private MaterialButton btn9;
+    private MaterialButton btnPlus;
+    private MaterialButton btnMinus;
+    private MaterialButton btnDivision;
+    private MaterialButton btnMultiply;
+    private MaterialButton btnEqual;
+    private MaterialButton btnС;
 
 
     @Override

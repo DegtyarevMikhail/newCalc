@@ -39,32 +39,28 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:gravity="center">
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/Button01"
-                android:backgroundTint="@color/calc_button_color"
-               style="CalcButtonStyle"
+                style="@style/CalcButtonStyle"
                 android:text="@string/_1"
                 android:textSize="30sp"
                 />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/Button02"
-                android:backgroundTint="@color/calc_button_color"
-                style="CalcButtonStyle"
+                style="@style/CalcButtonStyle"
                 android:text="@string/_2"
                 android:textSize="30sp"/>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/Button03"
-                android:backgroundTint="@color/calc_button_color"
-                style="CalcButtonStyle"
+                style="@style/CalcButtonStyle"
                 android:text="@string/_3"
                 android:textSize="30sp"/>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/ButtonPlus"
-                android:backgroundTint="@color/calc_button_color"
-                style="CalcButtonStyle"
+                style="@style/CalcButtonStyle"
                 android:text="@string/plus"
                 android:textSize="30sp"/>
         </TableRow>
@@ -75,31 +71,27 @@
             android:layout_height="wrap_content"
             android:gravity="center">
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/Button04"
-                android:backgroundTint="@color/calc_button_color"
-                style="CalcButtonStyle"
+                style="@style/CalcButtonStyle"
                 android:text="@string/_4"
                 android:textSize="30sp"/>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/Button05"
-                android:backgroundTint="@color/calc_button_color"
-                style="CalcButtonStyle"
+                style="@style/CalcButtonStyle"
                 android:text="@string/_5"
                 android:textSize="30sp"/>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/Button06"
-                android:backgroundTint="@color/calc_button_color"
-                style="CalcButtonStyle"
+                style="@style/CalcButtonStyle"
                 android:text="@string/_6"
                 android:textSize="30sp"/>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/ButtonMinus"
-                android:backgroundTint="@color/calc_button_color"
-                style="CalcButtonStyle"
+                style="@style/CalcButtonStyle"
                 android:text="@string/minus"
                 android:textSize="30sp"/>
         </TableRow>
@@ -110,31 +102,27 @@
             android:layout_height="match_parent"
             android:gravity="center">
 
-            <Button
-                android:backgroundTint="@color/calc_button_color"
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/Button07"
-                style="CalcButtonStyle"
+                style="@style/CalcButtonStyle"
                 android:text="@string/_7"
                 android:textSize="30sp" />
 
-            <Button
-                android:backgroundTint="@color/calc_button_color"
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/Button08"
-                style="CalcButtonStyle"
+                style="@style/CalcButtonStyle"
                 android:text="@string/_8"
                 android:textSize="30sp" />
 
-            <Button
-                android:backgroundTint="@color/calc_button_color"
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/Button09"
-                style="CalcButtonStyle"
+                style="@style/CalcButtonStyle"
                 android:text="@string/_9"
                 android:textSize="30sp" />
 
-            <Button
-                android:backgroundTint="@color/calc_button_color"
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/ButtonDivide"
-                style="CalcButtonStyle"
+                style="@style/CalcButtonStyle"
                 android:text="@string/divide"
                 android:textSize="30sp" />
         </TableRow>
@@ -145,31 +133,27 @@
             android:layout_height="30pt"
             android:gravity="center">
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/Button10"
-                android:backgroundTint="@color/calc_button_color"
-                style="CalcButtonStyle"
+                style="@style/CalcButtonStyle"
                 android:text="@string/point"
                 android:textSize="30sp"/>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/Button11"
-                android:backgroundTint="@color/calc_button_color"
-                style="CalcButtonStyle"
+                style="@style/CalcButtonStyle"
                 android:text="@string/_0"
-                android:textSize="30sp"/>
+                android:textSize="30sp" />
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/Button12"
-                android:backgroundTint="@color/calc_button_color"
-                style="CalcButtonStyle"
+                style="@style/CalcButtonStyle"
                 android:text="@string/button12"
                 android:textSize="30sp"/>
 
-            <Button
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/ButtonMul"
-                style="CalcButtonStyle"
-                android:backgroundTint="@color/calc_button_color"
+                style="@style/CalcButtonStyle"
                 android:text="@string/multi"
                 android:textSize="30sp"/>
 
@@ -180,12 +164,11 @@
             android:layout_height="@dimen/calc_button_height"
             android:gravity="center">
 
-            <Button
-                android:backgroundTint="@color/calc_button_color"
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/ButtonC"
                 android:layout_gravity="bottom"
                 android:textColor="#D6C213"
-                style="CalcButtonStyle"
+                style="@style/CalcButtonStyle"
                 android:text="@string/c"
                 android:textSize="30sp" />
 
