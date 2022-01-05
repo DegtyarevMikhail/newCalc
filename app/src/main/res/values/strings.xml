@@ -18,4 +18,5 @@
     <string name="multi">*</string>
     <string name="c">C</string>
     <string name="hello_world">Merry Cristmas</string>
+    <string name="ButtonSwitch">SW</string>
 </resources>

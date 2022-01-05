@@ -12,8 +12,8 @@
 
     <EditText
         android:id="@+id/display1"
-        android:layout_width="397dp"
-        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:textColor="@color/white"
         android:textSize="@dimen/greetings_string_size" />
 
@@ -21,11 +21,14 @@
     <EditText
         android:padding="@dimen/cardview_compat_inset_shadow"
         android:id="@+id/display2"
-        android:layout_width="397dp"
-        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:textColor="@color/white"
         android:textSize="@dimen/greetings_string_size"
         />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"/>
 
     <TableLayout
         android:layout_margin="@dimen/default_margin"
@@ -177,15 +180,5 @@
         </TableRow>
 
     </TableLayout>
-    <EditText
-        android:text="@string/hello_world"
-        android:id="@+id/display3"
-        android:layout_width="397dp"
-        android:layout_height="80dp"
-        android:textColor="@color/white"
-        android:textSize="20sp" />
+
 </LinearLayout>
-
-
-
-
