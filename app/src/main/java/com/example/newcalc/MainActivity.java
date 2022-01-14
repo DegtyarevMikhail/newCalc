@@ -11,7 +11,7 @@ import com.google.android.material.button.MaterialButton;
 
 public class MainActivity extends AppCompatActivity {
 
-    private MaterialButton b1, b2, b3, b4, b5, b6, b7, b8, b9, b0, equal,dec, add, minus, div, mult,clean;
+    private MaterialButton b1, b2, b3, b4, b5, b6, b7, b8, b9, b0, equal, add, minus, div, mult,clean;
     private EditText t1, t2;
     public String a, b, u = "",si="",con="", e = "Math error";
     char ch=' ';
@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
         b8 = findViewById(R.id.Button08);
         b9 = findViewById(R.id.Button09);
         equal = findViewById(R.id.Button12);
-        dec = findViewById(R.id.Button10);
         add = findViewById(R.id.ButtonPlus);
         minus = findViewById(R.id.ButtonMinus);
         div = findViewById(R.id.ButtonDivide);
@@ -133,14 +132,7 @@ public class MainActivity extends AppCompatActivity {
                 cal();
             }
         });
-        dec.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                u=u+".";
-                con=si+u;
-                t1.setText(con);
-            }
-        });
+
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

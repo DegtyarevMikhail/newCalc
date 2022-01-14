@@ -141,11 +141,7 @@
                 style="@style/CalcButtonStyle"
                 android:text="@string/_0"
                 android:textSize="20sp" />
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/Button10"
-                style="@style/CalcButtonStyle"
-                android:text="@string/point"
-                android:textSize="30sp"/>
+
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/Button12"
                 style="@style/CalcButtonStyle"

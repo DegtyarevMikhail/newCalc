@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -136,11 +137,6 @@
             android:layout_height="wrap_content"
             android:gravity="center">
 
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/Button10"
-                style="@style/CalcButtonStyle"
-                android:text="@string/point"
-                android:textSize="@dimen/text_size_button"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/Button11"
